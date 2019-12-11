@@ -8,7 +8,7 @@ from selenium import webdriver
 d_path = os.getcwd() + '/chromedriver'
 
 domain = 'https://www.yelp.com/search?find_desc=' \
-         'Movers&find_loc=San+Francisco%2C+CA&ns=1'
+         'Home%20Cleaning&find_loc=New%20York%2C%20NY'
 
 
 def page_data(href): # gets page data
